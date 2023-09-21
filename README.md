@@ -52,3 +52,58 @@ This is a basic framework for a detective game, and you can expand upon it to cr
 5. Follow the on-screen instructions to play the game.
 
 Enjoy the Detective Game and put your detective skills to the test! Can you solve the mystery?
+
+# Mario Kart-inspired Racing Game
+
+Welcome to the Mario Kart-inspired Racing Game! This is a simplified text-based racing game where you control a character and race against computer-controlled opponents on a track.
+
+## How to Play
+
+1. **Game Objective**:
+    - The objective of the game is to reach the end of the track (defined by `track_length`) before your opponents do.
+
+2. **Characters**:
+    - You play as Mario, while there are three computer-controlled opponents: Luigi, Yoshi, and Toad.
+    - Each character has a speed and acceleration value, affecting their progress in each turn.
+
+3. **Game Loop**:
+    - The game operates in a loop where each turn consists of the following:
+        - Your character's turn: Your character's speed and acceleration are used to determine your progress in this turn.
+        - Opponents' turns: The computer-controlled opponents' speed and acceleration are used to determine their progress.
+        - Display of race progress: The game displays the race progress using '=' characters on the console.
+
+4. **Winning the Game**:
+    - The game continues until either you or one of the opponents reaches the end of the track (defined by `track_length`).
+    - If you reach the end of the track first, you win the race.
+
+5. **End of the Game**:
+    - When the game ends, whether you win or lose, it will display a message to thank you for playing.
+
+## Customize and Expand
+
+This is a basic framework for a racing game, and you can expand upon it to create a more immersive and interactive experience. Here are some ideas for customization and expansion:
+
+- **Graphics**: Consider using a game development framework like Pygame or Unity to add graphical elements and make the game visually appealing.
+- **More Characters**: Add more characters with unique abilities, and let players choose their character.
+- **Power-Ups**: Implement power-ups and items inspired by Mario Kart to enhance gameplay.
+- **Multiple Tracks**: Create multiple race tracks with varying difficulty levels.
+- **Player Interaction**: Add player interaction such as steering, using items, or drifting during races.
+- **Sound and Music**: Incorporate sound effects and background music to improve the gaming experience.
+
+## Getting Started
+
+1. Make sure you have Python installed on your computer.
+
+2. Download the `mario_kart_game.py` file.
+
+3. Open your terminal or command prompt and navigate to the directory where the `mario_kart_game.py` file is located.
+
+4. Run the game by executing the following command:
+    ```
+    python mario_kart_game.py
+    ```
+
+5. Use the game controls to progress through the race and aim to reach the end of the track before your opponents.
+
+Enjoy the Mario Kart-inspired Racing Game and have fun racing against the computer-controlled opponents!
+
