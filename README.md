@@ -130,6 +130,17 @@ The Number Guessing Game is a simple Python-based game where the player attempts
 
 ## Example
 
+Welcome to the Number Guessing Game!
+I'm thinking of a number between 1 and 100. You have 10 attempts to guess it.
+Enter your guess: 50
+Too low. Try again.
+Enter your guess: 75
+Too high. Try again.
+Enter your guess: 60
+Too low. Try again.
+Enter your guess: 70
+Congratulations! You guessed the number 70 correctly in 4 attempts.
+
 ## Customization
 
 You can customize the game by modifying the following parameters in the `number_guessing_game.py` script:
