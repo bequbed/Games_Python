@@ -107,3 +107,43 @@ This is a basic framework for a racing game, and you can expand upon it to creat
 
 Enjoy the Mario Kart-inspired Racing Game and have fun racing against the computer-controlled opponents!
 
+# Number Guessing Game
+
+The Number Guessing Game is a simple Python-based game where the player attempts to guess a randomly generated number within a limited number of attempts. The game provides feedback to help the player refine their guess.
+
+## How to Play
+
+1. Run the `number_guessing_game.py` script by executing the following command in your terminal or command prompt:
+
+
+2. The computer will select a random number between 1 and 100 as the secret number.
+
+3. You will have a maximum of 10 attempts to guess the secret number.
+
+4. Enter your guess when prompted.
+
+5. After each guess, the game will provide feedback, letting you know if your guess is too high or too low.
+
+6. Keep guessing until you either guess the correct number or run out of attempts.
+
+7. The game will display a message with the number of attempts it took to guess the correct number or inform you that you've run out of attempts.
+
+## Example
+
+## Customization
+
+You can customize the game by modifying the following parameters in the `number_guessing_game.py` script:
+
+- Change the range of numbers: Modify the arguments of `random.randint()` to select a different range.
+- Adjust the maximum number of attempts: Modify the `max_attempts` variable to set a different limit on the number of guesses.
+
+## Author
+
+bequbed
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
