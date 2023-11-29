@@ -1,3 +1,5 @@
+Stay Tuned... more game codes coming next week. 
+
 # Games_Python
 
 # Detective Game
