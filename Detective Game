@@ -20,7 +20,8 @@ while True:
     print("1. Question a suspect")
     print("2. Inspect the crime scene")
     print("3. Make an accusation")
-    print("4. Quit")
+    print("4. Quit?")
+    print ("5. Start again)
 
     choice = input("Enter your choice (1/2/3/4): ")
 
