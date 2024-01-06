@@ -1,5 +1,3 @@
-Stay Tuned... more game codes coming next week. 
-
 # Games_Python
 
 # Detective Game
@@ -149,7 +147,22 @@ You can customize the game by modifying the following parameters in the `number_
 
 - Change the range of numbers: Modify the arguments of `random.randint()` to select a different range.
 - Adjust the maximum number of attempts: Modify the `max_attempts` variable to set a different limit on the number of guesses.
+  
+Hangman ☠️
+Get ready to stretch your vocabulary and defy the gallows in this classic word guessing game!
 
+Objective: Guess the hidden word before the hangman is complete.
+
+Gameplay:
+
+Choose a category (optional).
+You'll see a row of dashes representing the hidden word.
+Take turns guessing letters.
+If you guess a correct letter, it will be revealed in all its rightful places.
+If you guess an incorrect letter, a part of the hangman will be drawn.
+Keep guessing until you either:
+Win: Successfully guess the entire word before the hangman is complete.
+Lose: The hangman is fully drawn.
 ## Author
 
 bequbed
