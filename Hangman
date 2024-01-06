@@ -1,0 +1,27 @@
+import random
+
+word_list = ["apple", "banana", "orange", "grape"]
+chosen_word = random.choice(word_list)
+display = ["_"] * len(chosen_word)
+lives = 6
+
+while lives > 0:
+    print(" ".join(display))
+    guess = input("Guess a letter: ").lower()
+
+    if guess in chosen_word:
+        for i in
+ 
+range(len(chosen_word)):
+            if chosen_word[i] == guess:
+                display[i] = guess
+    else:
+        lives -= 1
+        print("Incorrect. You have", lives, "lives left.")
+
+    if "_" not in display:
+        print("You win! The word was", chosen_word)
+        break
+
+if lives == 0:
+    print("You lose! The word was", chosen_word)
